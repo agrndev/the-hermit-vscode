@@ -1,0 +1,28 @@
+{
+	"name": "the-hermit-theme",
+	"displayName": "The Hermit",
+	"description": "A simple but warm theme",
+	"license": "MIT",
+	"publisher": "Ailton Reiner",
+	"version": "1.0.0",
+	"icon": "./icon.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/agrndev/the-hermit-vscode"
+	},
+	"engines": {
+		"vscode": "^1.80.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "The Hermit",
+				"uiTheme": "vs-dark",
+				"path": "./themes/the-hermit.json"
+			}
+		]
+	}
+}
